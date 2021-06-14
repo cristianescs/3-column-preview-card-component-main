@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    margin: auto !important;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cards {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    width: 920px;
+  }
+  .card {
+    height: 500px !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+  .sedans {
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 10px !important;
+  }
+  .luxury {
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 0 !important;
+  }
+}
+
+body {
+  font-size: 15px;
+  background: #f2f2f2;
+  margin: 5.5rem 0;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+  width: 90%;
+  height: 442px;
+}
+
+.card img {
+  width: 65px;
+}
+
+.card h2 {
+  margin: 2.625rem 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+}
+
+.card p {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
+}
+
+.card button {
+  font-family: "Lexend Deca", sans-serif;
+  padding: 15px;
+  margin-top: 35px;
+  width: 150px;
+  background: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: transparent;
+  color: #f2f2f2;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.sedans {
+  background: #e38826;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.sedans button {
+  color: #e38826;
+}
+
+.suvs {
+  background: #006970;
+}
+
+.suvs button {
+  color: #006970;
+}
+
+.luxury {
+  background: #004241;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.luxury button {
+  color: #004241;
+}
+
+.btn {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+/*# sourceMappingURL=main.css.map */

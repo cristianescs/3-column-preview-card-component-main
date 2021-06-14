@@ -1,0 +1,29 @@
+@include desktop {
+
+    body {
+        margin: auto !important;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards {
+        flex-direction: row !important;
+        width: 920px;
+    }
+
+    .card {
+        height: 500px !important;
+        justify-content: start !important;
+    }
+
+    .sedans {
+        border-top-right-radius: 0 !important;
+        border-bottom-left-radius: 10px !important;
+    }
+
+    .luxury {
+        border-top-right-radius: 10px !important;
+        border-bottom-left-radius: 0 !important;
+    }
+}

@@ -1,0 +1,15 @@
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+$transparent-white: hsla(0, 0%, 100%, 0.75); //paragraphs
+$very-light-gray: hsl(0, 0%, 95%); // background, headings, buttons
+
+$lexend-deca: 'Lexend Deca', sans-serif;
+$big-shoulders:'Big Shoulders Display', cursive;
+
+
+@mixin desktop {
+    @media screen and (min-width: 1024px ){
+        @content;
+    }
+}

@@ -1,0 +1,98 @@
+@import 'config';
+@import 'reset';
+@import 'responsive';
+
+body {
+    font-size: 15px;
+    background: $very-light-gray;
+    margin: 5.5rem 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 50px;
+    width: 90%;
+    height: 442px;
+
+    img {
+        width: 65px;
+    }
+
+    h2 {
+        margin: 2.625rem 0;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-family: $big-shoulders;
+        color: $very-light-gray;
+    }
+
+    p {
+        font-family: $lexend-deca;
+        color: $transparent-white;
+        line-height: 1.5;
+    }
+
+    button {
+        font-family: $lexend-deca;
+        padding: 15px;
+        margin-top: 35px;
+        width: 150px;
+        background: $very-light-gray;
+        border: 2px solid $very-light-gray;
+        border-radius: 30px;
+        cursor: pointer;
+
+        &:hover {
+            background: transparent;
+            color: $very-light-gray;
+            transition: 1s ease;
+        }
+    }
+}
+
+.sedans {
+    background: $bright-orange;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    button {
+        color: $bright-orange;
+    }
+}
+
+
+.suvs {
+    background: $dark-cyan;
+
+    button {
+        color: $dark-cyan;
+    }
+}
+
+
+.luxury {
+    background: $very-dark-cyan;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    button {
+        color: $very-dark-cyan;
+    }
+}
+
+.btn {
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
