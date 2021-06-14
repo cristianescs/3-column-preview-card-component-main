@@ -31,19 +31,24 @@ Users should be able to:
 #### Final Result:
 
 ![My solution](./images/desktop-solution.png)
+
+
 ![My solution](./images/mobile-solution.png)
+
+
 ![My solution](./images/btn-hover.gif)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/3-column-card-component-built-with-sass-and-flexbox-41em_UWHV](https://www.frontendmentor.io/solutions/3-column-card-component-built-with-sass-and-flexbox-41em_UWHV)
+- Live Site URL: [https://cristianescs.github.io/3-column-preview-card-component-main/](https://cristianescs.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
 ### Built with
 
 - CSS custom properties
+- SASS
 - Flexbox
 - Mobile-first workflow
 
